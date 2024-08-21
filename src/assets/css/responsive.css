@@ -1,0 +1,707 @@
+@media (max-width: 1199px) {
+    .nav_bg {
+        margin: 0px;
+        max-width: 100%;
+    }
+
+    .navbar-expand-xl {
+        flex-wrap: wrap;
+    }
+
+    .navbar-nav .main_ul {
+        display: block;
+        margin-top: 27px;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .dropdown-menu {
+        width: fit-content;
+    }
+
+    .navbar-expand-xl .navbar-nav .dropdown-menu .dropdown-menu {
+        width: fit-content;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+
+    .navbar li.active::before {
+        content: none;
+    }
+
+    .navbar-nav a {
+        line-height: 36px;
+        font-size: 12px;
+    }
+
+    .career_img img {
+        /* display: none; */
+        height: auto;
+    }
+
+    .h2_lg {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 53px;
+    }
+
+    .career_section {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .student_cllubs h1 {
+        font-size: 60px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
+    .navbarStyle {
+        position: relative !important;
+        padding-bottom: 0px;
+        /* added this line */
+    }
+
+    .navbar-toggler {
+        color: transparent;
+        background-color: transparent;
+        border: none;
+        z-index: 999;
+    }
+
+    .videoStyle,
+    .video-container {
+        height: auto;
+    }
+
+    .main-sub-tit {
+        font-size: 18px;
+        line-height: 39px;
+    }
+
+    .main-sec-tit {
+        font-size: 26px;
+        line-height: 47px;
+    }
+
+    .main-sec-tit::after {
+        bottom: 15px;
+
+    }
+
+    h1 {
+        font-size: 52px;
+        line-height: 60px;
+    }
+
+    .faculty_bg .mx-auto {
+        margin-left: 0px !important;
+    }
+
+    .capstone .image_card,
+    .capstone .txt-card {
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .apply_sec h1 {
+        font-size: 37px;
+    }
+
+    .apply_sec img {
+        width: 293px;
+    }
+
+    .placemnt_img img {
+        width: 56%;
+        margin-bottom: 20px;
+    }
+
+    .placemnt_img {
+        text-align: center;
+    }
+
+    .text-slider {
+        margin-left: 0px;
+    }
+
+    .student_cllubs h1 {
+        font-size: 40px;
+    }
+
+    .banner_img {
+        display: block;
+    }
+
+    .contact h2 {
+        margin-bottom: 20px;
+    }
+
+    .transparant_bg {
+        padding: 50px 127px;
+    }
+
+    .contact {
+        padding: 0px;
+    }
+
+    .contact h2 {
+        padding-top: 84px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .pattern_bg {
+        min-height: auto;
+    }
+
+    .event_heading {
+        text-align: left;
+    }
+
+    .event_slider_width .slick-slide img {
+        width: 327px;
+        height: 257px;
+    }
+
+    .card_policies {
+        background-color: rgba(0, 0, 0, 0.5098039216);
+        padding: 30px 10px;
+        box-shadow: 0px 0px 8px #bbb;
+        margin: 10px 0px;
+        width: auto !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 200px;
+        min-width: 176px;
+    }
+
+    .faculty_modal .modal-content {
+        width: auto;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .image_center img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 37px;
+    }
+
+    .center_title {
+
+        font-size: 33px;
+    }
+
+    .mt-6 {
+        margin-top: 1rem;
+    }
+
+    .large_title {
+        font-size: 30px;
+        line-height: 40px;
+        color: #fff;
+        letter-spacing: 0px;
+        font-weight: 800;
+    }
+
+    .large_light_text {
+        color: #000;
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 0px !important;
+        line-height: 43px;
+    }
+
+    .navbar-expand-xl .navbar-nav .dropdown-menu .dropdown-menu {
+        top: 37px;
+        left: 0%;
+        z-index: 999999;
+    }
+
+    .navbar-expand-xl {
+        flex-wrap: wrap;
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
+    .main-sub-tit {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .main-sec-tit {
+        font-size: 21px;
+    }
+
+    .faculty_modal img {
+        /* left: 156px; */
+    }
+
+    .k_study h2 {
+        /* font-size: 26px; */
+    }
+
+    .h1_lg {
+        font-size: 42px !important;
+        line-height: 50px !important;
+        font-weight: 400 !important;
+    }
+
+    .f-text {
+        font-size: 35px;
+        line-height: 56px;
+    }
+
+    /* .mpp h1 {
+        font-size: 48px;
+        line-height: 76px;
+    } */
+    .man_tit {
+        font-size: 31px;
+    }
+
+    .ac_head {
+        line-height: 32px;
+        font-size: 28px;
+    }
+
+    .research-projects p,
+    .research-projects h4 {
+        font-size: 17px;
+        line-height: 37px;
+    }
+
+    .inner_capstone h2 {
+        font-size: 28px;
+    }
+
+    .recuiter .p-sec2,
+    .recuiter .p-sec5,
+    .top-recuiters h4,
+    .demographics h2,
+    .placements-faculty h2,
+    .internships h2,
+    .holistic h2 {
+        font-size: 34px;
+    }
+
+    .recuiter .btn-primary {
+        margin-bottom: 10px;
+    }
+
+    .placements-faculty {
+        padding-left: 0px;
+    }
+
+    .student_cllubs h1 {
+        font-size: 33px;
+    }
+
+    .policies h2 {
+        font-size: 23px;
+    }
+
+    .heading {
+        font-size: 22px;
+    }
+
+    .onboarding_process ul {
+        padding-left: 35px;
+    }
+
+    .transparant_bg {
+        padding: 0px;
+        margin-left: 0px;
+        margin: 0px 20px;
+        padding-bottom: 40px;
+    }
+
+    .count-ratio {
+        font-size: 45px;
+
+    }
+
+    .pattern_bg {
+        min-height: auto;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .faculty .grid-container {
+        text-align: center;
+    }
+
+    .mt-xs-0 {
+        margin-top: -10px !important;
+    }
+
+    .pt-xs-0 {
+        padding-top: 0 !important;
+    }
+
+    .slick-dots {
+        bottom: -20px !important;
+    }
+
+    .slick-dots li button:before {
+        top: 50px;
+    }
+
+    .slick-prev {
+        left: -15px !important;
+    }
+
+    .slick-next {
+        right: -15px !important;
+    }
+
+    .nav-link {
+        padding: 0.5rem 1rem;
+    }
+
+    .nav-link.active {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .academic_faculty img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .d-block_carousel {
+        height: auto;
+    }
+
+    .event_heading {
+        text-align: left;
+    }
+
+    .event_slider_width .slick-slide img {
+        width: 327px;
+        height: 257px;
+    }
+
+    .card_policies {
+        background-color: rgba(0, 0, 0, 0.5098039216);
+        padding: 30px 10px;
+        box-shadow: 0px 0px 8px #bbb;
+        margin: 10px 0px;
+        width: auto !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 200px;
+    }
+
+    section {
+        padding: 20px 0px;
+    }
+
+    .nav-tabs .nav-item {
+        display: block;
+        width: 100%;
+    }
+
+    .nav-tabs .nav-link {
+        text-align: left;
+        width: 100%;
+
+    }
+
+    .nav-tabs .nav-item .nav-link {
+        padding: 10px;
+
+    }
+
+    .gei_resp_images {
+        flex-direction: column;
+    }
+
+    .gei_workshop_section {
+        margin-bottom: 30px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .kc-policy-alpha {
+        padding-left: 20px;
+    }
+
+    .logo_bg {
+        padding: 30px 10px 30px 10px;
+    }
+
+    .gei_img_cont_lt {
+        padding-left: 0px;
+    }
+
+    .gei_img_cont_rg {
+        padding-right: 0px;
+    }
+
+    .main-sec-tit::after {
+
+        width: 45%;
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .click_here,
+    .click_img {
+        text-align: center;
+    }
+
+    .apply_sec h1 {
+        font-size: 30px;
+    }
+
+    .apply_sec h5 {
+        font-size: 22px;
+    }
+
+    .navbar-expand-xl .navbar-nav .dropdown-menu .dropdown-menu {
+        top: 37px;
+        left: 0%;
+        z-index: 999999;
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
+    .navbar-toggler {
+
+        color: transparent;
+        background-color: transparent;
+        border: none;
+        z-index: 999;
+
+    }
+
+    .pattern_bg {
+        min-height: auto;
+    }
+
+    .admission_enquiry button {
+        top: 10%;
+    }
+
+    .mtb-5 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .recuiter .btn {
+        padding: 6px 9px;
+        margin-right: 10px;
+
+    }
+
+    .top-recuiters .slick-slide img {
+        width: 99%;
+    }
+
+    .count-ratio {
+        font-size: 45px;
+
+    }
+
+    .d-block_carousel {
+        height: auto;
+    }
+
+    section {
+        padding: 20px 0px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    section {
+        padding: 20px 0px;
+    }
+
+    h1 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    h4 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .faculty_modal img {
+        width: 108px !important;
+        height: 108px;
+        top: -120px;
+        /* left: 153px; */
+    }
+
+    .k_study h2 {
+        /* font-size: 20px; */
+    }
+
+    .h2_lg {
+        font-size: 24px;
+        line-height: 45px;
+    }
+
+    .f-text {
+        font-size: 27px;
+        line-height: 44px;
+    }
+
+    /* .mpp h1 {
+        font-size: 41px;
+        line-height: 63px;
+    } */
+    .faqs .title {
+        font-size: 1rem !important;
+        font-weight: 600;
+    }
+
+    .inner_capstone h2 {
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+    .ac-associates h5 {
+        font-size: 21px;
+    }
+
+    .student-mix h1 {
+        font-size: 34px;
+    }
+
+    .financial-ad h1 {
+        font-size: 26px;
+    }
+
+    .recuiter .p-sec2,
+    .recuiter .p-sec5,
+    .top-recuiters h4,
+    .demographics h2,
+    .placements-faculty h2,
+    .internships h2,
+    .holistic h2 {
+        font-size: 22px;
+    }
+
+    .headingWithBG h4 {
+        font-size: 20px;
+    }
+
+    .policies h2 {
+        font-size: 19px;
+    }
+
+    .pattern_bg {
+        min-height: auto;
+    }
+
+    .d-block_carousel {
+        height: auto;
+    }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+    .faculty_modal img {
+        /* left: 85px; */
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    h2 {
+        font-size: 29px;
+    }
+
+    .h1_lg {
+        font-size: 37px !important;
+    }
+
+    /* .mpp h1 {
+        font-size: 31px;
+        line-height: 49px;
+      } */
+    .capstone .image_card,
+    .capstone .txt-card {
+        width: 21rem;
+    }
+
+    .capstone .user_txt {
+        font-size: 11px;
+    }
+
+    .slick-dots li button::before {
+        margin-top: 20px;
+    }
+
+    .slick-dots {
+        bottom: 0px !important;
+    }
+
+    .student_cllubs h1 {
+        font-size: 20px;
+    }
+
+    .policies h2 {
+        font-size: 15px;
+    }
+
+    .heading {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .pattern_bg {
+        min-height: auto;
+    }
+
+    .admission_enquiry button {
+        top: 10%;
+    }
+
+    .d-block_carousel {
+        height: auto;
+    }
+
+}
